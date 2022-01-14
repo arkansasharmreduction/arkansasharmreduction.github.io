@@ -50,8 +50,13 @@ a {
   height: 24px;
   padding-right: 12px;
 }
-.hands {
-  width: 184px;
+.logo {
+  width: 80%;
+}
+@media(min-width: 600px) {
+  .logo {
+    width: 25%;
+  }
 }
 .pink {
   color: $accent-color;
@@ -138,8 +143,8 @@ a.title {
       height: 100%;
       background: #000;
     }
-    @media (min-width: 960px) {
-      font-size: 48px;
+    @media (min-width: 1020px) {
+      font-size: 42px;
     }
     @media (min-width: 1280px) {
       font-size: 72px;
