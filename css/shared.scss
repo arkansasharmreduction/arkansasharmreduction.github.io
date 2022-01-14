@@ -52,10 +52,11 @@ a {
 }
 .logo {
   width: 80%;
+  margin-bottom: 20px;
 }
 @media(min-width: 600px) {
   .logo {
-    width: 25%;
+    width: 22%;
   }
 }
 .pink {
@@ -144,7 +145,7 @@ a.title {
       background: #000;
     }
     @media (min-width: 1020px) {
-      font-size: 42px;
+      font-size: 48px;
     }
     @media (min-width: 1280px) {
       font-size: 72px;
